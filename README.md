@@ -32,3 +32,30 @@ Sample Output:
 
 ![Screenshot (29)](https://user-images.githubusercontent.com/129615692/229309820-dc53eda8-c616-4cfb-8ad3-d1eb06b41909.png)
 
+Insertion Sort:
+
+In insertion sorting, Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration.
+
+Algorithm:
+
+insertionSort(array)
+  mark first element as sorted
+  for each unsorted element X
+    'extract' the element X
+    for j <- lastSortedIndex down to 0
+      if current element j > X
+        move sorted element to the right by 1
+    break loop and insert X here
+end insertionSort
+
+Code:
+
+![Screenshot (31)](https://user-images.githubusercontent.com/129615692/229310052-6756294f-31b8-40e4-8598-50a23e53456c.png)
+
+Sample Output:
+
+![Screenshot (32)](https://user-images.githubusercontent.com/129615692/229310069-ebb84b75-b2df-4e90-8b37-d8c3e2452562.png)
+
+
+
+
